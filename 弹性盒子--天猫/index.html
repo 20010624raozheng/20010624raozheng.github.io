@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+				::-webkit-scrollbar {
+				display: none;
+			}
+			
+			.zz::before,
+			.zz::after {
+				content: "";
+				display: block;
+			}
+			h3{
+	font-weight: bold;
+	font-size: 30px;
+}
+img {
+	transition: all 0.5s;
+}
+img:hover{
+	opacity: 0.9;
+	transform: scale(1.01);
+}
+			
+			.a {
+				width: 230px;
+				height: 500px;
+				border: double;
+				flex-flow: row;
+				margin-left: 0px;
+				margin-top: 20px;
+				background-color: aliceblue;
+			}
+			
+			ul {
+				display: flex;
+				flex-flow: row wrap;
+				padding: 0px;
+				margin: 0px;
+				transition: all 0.50s;
+			}
+			
+			ul li {
+				display: block;
+				list-style: none;
+				flex-basis: 20%;
+				height: 500px;
+				text-align: center;
+				line-height: 42px;
+				transition: all 0.50s;
+			}
+			
+			@media only screen and (min-width:1200px) {
+				ul {
+					flex-flow: row nowrap;
+					flex-basis: 100%;
+					transition: all 1s;
+				}
+			}
+			
+			@media only screen and (max-width: 600px) {
+				ul li {
+					flex-basis: 100%;
+					transition: all 1s;
+				}
+		</style>
+	</head>
+
+	<body>
+		<div class="content">
+			<ul>
+				<li>
+					<div class="a">
+						<div class="aimg zz">
+							<img src="img/timg (1).jpg" width="95%" />
+						</div>
+						<div class="dis zz">
+							<h3>Adidas</h3>
+							<a href="https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.85.625a5c3eNyW1UT&id=606246389126&skuId=4247773428125&areaId=610400&user_id=2206560665443&cat_id=2&is_b=1&rn=8705fbe1fc101087feaf96d5f8ea99a4" target="_search">
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="a">
+						<div class="aimg zz">
+							<img src="img/timg (2).jpg" width="95%" />
+						</div>
+						<div class="dis zz">
+							<h3>Champion</h3>
+							<a href="https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.92.625a5c3eNyW1UT&id=605943016304&skuId=4247148080756&areaId=610400&user_id=2201228319409&cat_id=2&is_b=1&rn=8705fbe1fc101087feaf96d5f8ea99a4" target="_search">
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="a">
+						<div class="aimg zz">
+							<img src="img/u=679878637,2166321233&fm=26&gp=0.jpg" width="95%" />
+						</div>
+						<div class="dis zz">
+							<h3>Nike</h3>
+							<a href="https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.11.34bf21ed4aKkVb&id=43260879394&skuId=3765053391951&areaId=610400&user_id=1127954887&cat_id=2&is_b=1&rn=f09e6f3c6ce9917edea3455e8c66c550" target="_search">
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="a">
+						<div class="aimg zz">
+							<img src="img/timg.jpg" width="95%" />
+						</div>
+						<div class="dis zz">
+							<h3>Air Jordan</h3>
+							<a href="https://detail.tmall.com/item.htm?spm=a220m.1000858.1000725.26.c5744fb6XUkqxr&id=607554013884&skuId=4434655230527&areaId=610400&user_id=2201650557309&cat_id=2&is_b=1&rn=d97a06c617c3599040667c8d6f53ee73" target="_search">
+							</a>
+						</div>
+					</div>
+				</li>
+				
+		</div>
+	</body>
+
+</html>

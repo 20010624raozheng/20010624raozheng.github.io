@@ -1,0 +1,23 @@
+.container{
+	display: -webkit-flex;;
+	flex-direction: row;
+	-webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+}
+
+
+.A{height: 300px;
+width: 200px;
+float: left;
+}
+.B{height: 300px;
+width: 200px;
+float: left;}
+
+.C{height: 300px;
+width: 200px;
+float: none;}
+
+.D{height: 300px;
+width: 200px;
+float: right;}
